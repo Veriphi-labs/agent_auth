@@ -26,6 +26,11 @@ classifiers = [
 homepage = "https://github.com/veriphi/agent-sync"
 issues = "https://github.com/veriphi/agent-sync/issues"
 
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+]
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 
