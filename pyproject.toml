@@ -3,14 +3,14 @@ requires = ["setuptools>=68", "wheel>=0.38"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "agent-sync"
+name = "agent_auth"
 version = "0.1.0"
 description = "Utilities for building an auth layer for Agents using Veriphi"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {file = "LICENSE"}
 dependencies = [
-  "veriphi_core==0.1.1",
+  "veriphi_core>=0.1.1,<0.2",
 ]
 authors = [
   {name = "Veriphi"},
@@ -23,8 +23,8 @@ classifiers = [
 ]
 
 [project.urls]
-homepage = "https://github.com/veriphi/agent-sync"
-issues = "https://github.com/veriphi/agent-sync/issues"
+homepage = "https://github.com/veriphi/agent_auth"
+issues = "https://github.com/veriphi/agent_auth/issues"
 
 [project.optional-dependencies]
 dev = [

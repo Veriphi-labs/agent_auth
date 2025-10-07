@@ -1,4 +1,4 @@
-# AGENT_SYNC
+# AGENT AUTHORISATION
 
 This repo provides tools to build a drop-in auth, synchronisation and identity layer for agents deployed within an organisation.
 
